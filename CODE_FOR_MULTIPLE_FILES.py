@@ -4,7 +4,7 @@ import translators.server as tss
 import regex
 import os
 
-dir = r"C:\Downloaded Web Sites\www.classcentral.com\report"
+dir = r"HERE/GOES/YOUR/DIRECTORY"
 for root, dirnames, filenames in os.walk(dir):
     for filename in filenames:
         if filename.endswith('.htm') or filename.endswith('.html'):
