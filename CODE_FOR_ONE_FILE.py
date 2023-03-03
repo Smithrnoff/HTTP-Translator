@@ -3,7 +3,7 @@ import translators as ts
 import translators.server as tss
 import regex
 
-dir = r"C:\Downloaded Web Sites\www.classcentral.com\subject\ai.html"
+dir = r"HERE\GOES\THE\DIRECTORY\FOR\YOUR\FILE"
 with open(dir,mode='r',encoding='utf-8') as source:
 
     soup = BeautifulSoup(source, 'html.parser')
